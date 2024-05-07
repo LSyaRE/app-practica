@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'app-practica';
+  image = 'assets/images.jpg'
+  icecreams = ['Mora', 'Fresa']
+  
+
 }
