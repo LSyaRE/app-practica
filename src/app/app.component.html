@@ -1,0 +1,22 @@
+<h1> titulo es {{title}}</h1>
+
+
+  <app-secondary botonname="botonInput" />
+@if(stringboton!="1"){
+  <button>boton 2 </button>
+}
+@else{
+  <button>boton 1 </button>
+}
+
+@for (icecream of icecreams; track icecream) {
+  <p>{{ icecream }}</p>
+}
+
+
+<img [src]="image" alt="imagen">
+
+
+
+
+
